@@ -1,0 +1,46 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+nav {
+  color: white;
+  z-index: 2;
+  position: relative;
+  padding: 4rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.title {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  font-size: 2.5rem;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -25%);
+}
