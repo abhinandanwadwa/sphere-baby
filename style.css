@@ -1,9 +1,11 @@
 body, html {
   margin: 0;
   padding: 0;
+  overflow: auto;
   box-sizing: border-box;
   overflow-y: hidden;
   overflow-x: hidden;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .webgl {
